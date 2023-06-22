@@ -1,4 +1,5 @@
-package com.serenitydojo.checks;
+package com.serenitydojo;
+
 
 public class Dog {
 
@@ -8,6 +9,7 @@ public class Dog {
 
     public int age;
 
+    public String favoriteToy;
     public void setName(String name) {
         this.name = name;
     }

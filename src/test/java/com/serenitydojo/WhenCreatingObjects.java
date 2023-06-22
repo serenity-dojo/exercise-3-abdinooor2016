@@ -1,6 +1,6 @@
 package com.serenitydojo;
 
-import com.serenitydojo.checks.Dog;
+import com.serenitydojo.Dog;
 import org.junit.Assert;
 import org.junit.Test;
 
