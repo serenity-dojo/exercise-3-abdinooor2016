@@ -24,4 +24,14 @@ public class WhenCreatingObjects {
         System.out.println(fido.getAge());
     }
 
+    @Test
+    public void dog_make_noise() {
+        Dog fido = new Dog();
+
+        fido.makeNoise();
+        fido.feed("Bone");
+        System.out.println("");
+
+
+    }
 }

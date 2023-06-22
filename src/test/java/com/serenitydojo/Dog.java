@@ -9,6 +9,8 @@ public class Dog {
 
     public int age;
 
+    public static   String DOG_MAKE_NOISE = "Woof";
+
     public String favoriteToy;
     public void setName(String name) {
         this.name = name;
@@ -32,5 +34,12 @@ public class Dog {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void makeNoise() {
+        System.out.println(DOG_MAKE_NOISE);
+    }
+
+    public void feed(String food) {
     }
 }
