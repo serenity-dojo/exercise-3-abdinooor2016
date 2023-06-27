@@ -9,14 +9,15 @@ public class Dog {
 
     public int age;
 
-    public static   String DOG_MAKE_NOISE = "Woof";
+    public static String DOG_MAKE_NOISE = "Woof";
 
     public String favoriteToy;
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public String  getName() {
+    public String getName() {
         return name;
     }
 
@@ -24,7 +25,7 @@ public class Dog {
         this.favoriteFood = favoriteFood;
     }
 
-    public String  getfavoriteFood() {
+    public String getfavoriteFood() {
         return favoriteFood;
     }
 

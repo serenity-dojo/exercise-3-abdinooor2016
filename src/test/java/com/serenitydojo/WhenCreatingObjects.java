@@ -21,7 +21,8 @@ public class WhenCreatingObjects {
         System.out.println(fido.getfavoriteFood());
 
         fido.setAge(5);
-        System.out.println(fido.getAge());
+        Assert.assertEquals(5, fido.getAge());
+
     }
 
     @Test
@@ -31,7 +32,5 @@ public class WhenCreatingObjects {
         fido.makeNoise();
         fido.feed("Bone");
         System.out.println("");
-
-
     }
 }
